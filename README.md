@@ -4,9 +4,9 @@ This repository contains the firmware for a simulated automotive door locking an
 
 ## Features
 
-- **Interrupt-driven inputs:** External interrupts on GPIOA0 and GPIOB1 capture handle and door lock button presses so state transitions occur immediately without polling.【F:all_files/src/main.c†L40-L54】【F:all_files/EXTI/EXTI.c†L21-L112】
-- **Stateful lock management:** The main loop tracks door and handle states to prevent invalid transitions (e.g., locking the handle while the door is open) and sequences LED patterns to mirror each action.【F:all_files/src/main.c†L56-L160】
-- **Timer-backed lighting effects:** A single general-purpose timer (TIM2) provides elapsed time for hazard flashing, ambient lighting duration, and anti-theft delays, simplifying timing logic across the application.【F:all_files/GPT/Gpt.c†L13-L44】【F:all_files/src/main.c†L72-L158】
+- **Interrupt-driven inputs:** External interrupts on GPIOA0 and GPIOB1 capture handle and door lock button presses so state transitions occur immediately without polling.【F:all_files/src/main.c】【F:all_files/EXTI/EXTI.c】
+- **Stateful lock management:** The main loop tracks door and handle states to prevent invalid transitions (e.g., locking the handle while the door is open) and sequences LED patterns to mirror each action.【F:all_files/src/main.c】
+- **Timer-backed lighting effects:** A single general-purpose timer (TIM2) provides elapsed time for hazard flashing, ambient lighting duration, and anti-theft delays, simplifying timing logic across the application.【F:all_files/GPT/Gpt.c】【F:all_files/src/main.c】
 
 ## Repository layout
 
@@ -33,7 +33,7 @@ This repository contains the firmware for a simulated automotive door locking an
    make -C all_files/Release
    ```
 
-   This produces the ELF (`Lab4_Startup_Project_TODO.elf`) and Intel HEX (`Lab4_Startup_Project_TODO.hex`) images in `all_files/Release/` along with associated size and listing files.【F:all_files/Release/makefile†L40-L78】
+   This produces the ELF (`Lab4_Startup_Project_TODO.elf`) and Intel HEX (`Lab4_Startup_Project_TODO.hex`) images in `all_files/Release/` along with associated size and listing files.【all_files/Release/makefile】
 
 3. Flash the generated HEX file to the target MCU or load it into your preferred simulator/emulator.
 
@@ -47,15 +47,12 @@ make -C all_files/Release clean
 
 ## Runtime behavior
 
-- **Handle opening:** Unlocks the handle, turns on all LEDs immediately, keeps the hazard LED lit for 0.5 seconds, the ambient LED for 2 seconds, and starts a 10-second anti-theft timer.【F:all_files/src/main.c†L68-L108】
-- **Handle closing:** If the door is closed, locks the handle, turns the lock LED off, and flashes the hazard LED twice before returning to idle.【F:all_files/src/main.c†L110-L140】
-- **Door opening/closing:** Door actions are only honored when their prerequisites are satisfied (e.g., the handle must be unlocked before opening). Closing the door powers down LEDs after a 1-second delay.【F:all_files/src/main.c†L142-L158】
-- **Anti-theft:** Ten seconds after the handle is opened without further interaction, the system relocks the handle and plays the same hazard pattern as manual locking.【F:all_files/src/main.c†L80-L158】
+- **Handle opening:** Unlocks the handle, turns on all LEDs immediately, keeps the hazard LED lit for 0.5 seconds, the ambient LED for 2 seconds, and starts a 10-second anti-theft timer.【F:all_files/src/main.c】
+- **Handle closing:** If the door is closed, locks the handle, turns the lock LED off, and flashes the hazard LED twice before returning to idle.【F:all_files/src/main.c】
+- **Door opening/closing:** Door actions are only honored when their prerequisites are satisfied (e.g., the handle must be unlocked before opening). Closing the door powers down LEDs after a 1-second delay.【F:all_files/src/main.c】
+- **Anti-theft:** Ten seconds after the handle is opened without further interaction, the system relocks the handle and plays the same hazard pattern as manual locking.【/src/main.c】
 
 ## Simulation and testing
 
 The `simulation/ARM Project.pdsprj.BEBO.abram.zip` archive contains the Proteus design used to demonstrate the firmware. Extract and open the project in Proteus to visualize the LED indicators and button inputs without hardware.
 
-## License
-
-The project reuses STM32F4 CMSIS sources that are distributed under the BSD 3-Clause License; consult the headers within `all_files/system/` for details.【F:all_files/system/src/cmsis/system_stm32f4xx.c†L1-L42】

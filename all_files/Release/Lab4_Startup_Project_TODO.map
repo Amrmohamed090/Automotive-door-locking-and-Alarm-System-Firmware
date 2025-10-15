@@ -1,0 +1,834 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-errno.o)
+                              ./system/src/newlib/sbrk.o (__errno)
+d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-impure.o)
+                              d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-errno.o) (_impure_ptr)
+
+Allocating common symbols
+Common symbol       size              file
+
+EXTI1_Callback      0x4               ./EXTI/EXTI.o
+EXTI4_Callback      0x4               ./EXTI/EXTI.o
+EXTI15_10_Callback  0x4               ./EXTI/EXTI.o
+errno               0x4               ./system/src/newlib/syscalls.o
+Handel_State        0x1               ./src/main.o
+EXTI9_5_Callback    0x4               ./EXTI/EXTI.o
+next_action         0x1               ./src/main.o
+EXTI0_Callback      0x4               ./EXTI/EXTI.o
+Door_State          0x1               ./src/main.o
+pin_number          0x1               ./EXTI/EXTI.o
+EXTI3_Callback      0x4               ./EXTI/EXTI.o
+EXTI2_Callback      0x4               ./EXTI/EXTI.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./system/src/newlib/assert.o
+ .data          0x00000000        0x0 ./system/src/newlib/assert.o
+ .bss           0x00000000        0x0 ./system/src/newlib/assert.o
+ .rodata        0x00000000       0x43 ./system/src/newlib/assert.o
+ .text.__assert_func
+                0x00000000       0x24 ./system/src/newlib/assert.o
+ .debug_info    0x00000000      0x94f ./system/src/newlib/assert.o
+ .debug_abbrev  0x00000000      0x1e0 ./system/src/newlib/assert.o
+ .debug_aranges
+                0x00000000       0x20 ./system/src/newlib/assert.o
+ .debug_ranges  0x00000000       0x10 ./system/src/newlib/assert.o
+ .debug_line    0x00000000      0x18e ./system/src/newlib/assert.o
+ .debug_str     0x00000000      0x60e ./system/src/newlib/assert.o
+ .comment       0x00000000       0x7f ./system/src/newlib/assert.o
+ .debug_frame   0x00000000       0x30 ./system/src/newlib/assert.o
+ .ARM.attributes
+                0x00000000       0x33 ./system/src/newlib/assert.o
+ .text          0x00000000        0x0 ./system/src/newlib/cxx.o
+ .data          0x00000000        0x0 ./system/src/newlib/cxx.o
+ .bss           0x00000000        0x0 ./system/src/newlib/cxx.o
+ .text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
+                0x00000000       0x14 ./system/src/newlib/cxx.o
+ .text.__cxa_pure_virtual
+                0x00000000       0x14 ./system/src/newlib/cxx.o
+ .rodata._ZZN9__gnu_cxx27__verbose_terminate_handlerEvE8__func__
+                0x00000000       0x1c ./system/src/newlib/cxx.o
+ .rodata._ZZ18__cxa_pure_virtualE8__func__
+                0x00000000       0x13 ./system/src/newlib/cxx.o
+ .debug_info    0x00000000      0xf85 ./system/src/newlib/cxx.o
+ .debug_abbrev  0x00000000      0x2ea ./system/src/newlib/cxx.o
+ .debug_aranges
+                0x00000000       0x28 ./system/src/newlib/cxx.o
+ .debug_ranges  0x00000000       0x18 ./system/src/newlib/cxx.o
+ .debug_line    0x00000000      0x2c2 ./system/src/newlib/cxx.o
+ .debug_str     0x00000000      0x81e ./system/src/newlib/cxx.o
+ .comment       0x00000000       0x7f ./system/src/newlib/cxx.o
+ .debug_frame   0x00000000       0x50 ./system/src/newlib/cxx.o
+ .ARM.attributes
+                0x00000000       0x33 ./system/src/newlib/cxx.o
+ .text          0x00000000        0x0 ./system/src/newlib/exit.o
+ .data          0x00000000        0x0 ./system/src/newlib/exit.o
+ .bss           0x00000000        0x0 ./system/src/newlib/exit.o
+ .rodata        0x00000000       0x14 ./system/src/newlib/exit.o
+ .text.abort    0x00000000       0x14 ./system/src/newlib/exit.o
+ .text          0x00000000        0x0 ./system/src/newlib/sbrk.o
+ .data          0x00000000        0x0 ./system/src/newlib/sbrk.o
+ .bss           0x00000000        0x0 ./system/src/newlib/sbrk.o
+ .bss.current_heap_end.3961
+                0x00000000        0x4 ./system/src/newlib/sbrk.o
+ .text._sbrk    0x00000000       0x68 ./system/src/newlib/sbrk.o
+ .debug_info    0x00000000      0x924 ./system/src/newlib/sbrk.o
+ .debug_abbrev  0x00000000      0x1cc ./system/src/newlib/sbrk.o
+ .debug_aranges
+                0x00000000       0x20 ./system/src/newlib/sbrk.o
+ .debug_ranges  0x00000000       0x10 ./system/src/newlib/sbrk.o
+ .debug_line    0x00000000      0x128 ./system/src/newlib/sbrk.o
+ .debug_str     0x00000000      0x602 ./system/src/newlib/sbrk.o
+ .comment       0x00000000       0x7f ./system/src/newlib/sbrk.o
+ .debug_frame   0x00000000       0x34 ./system/src/newlib/sbrk.o
+ .ARM.attributes
+                0x00000000       0x33 ./system/src/newlib/sbrk.o
+ .text          0x00000000        0x0 ./system/src/newlib/startup.o
+ .data          0x00000000        0x0 ./system/src/newlib/startup.o
+ .bss           0x00000000        0x0 ./system/src/newlib/startup.o
+ .text.__initialize_data
+                0x00000000       0x34 ./system/src/newlib/startup.o
+ .text.__initialize_bss
+                0x00000000       0x2c ./system/src/newlib/startup.o
+ .text.__run_init_array
+                0x00000000       0x70 ./system/src/newlib/startup.o
+ .text.__run_fini_array
+                0x00000000       0x40 ./system/src/newlib/startup.o
+ .text          0x00000000        0x0 ./system/src/newlib/syscalls.o
+ .data          0x00000000        0x0 ./system/src/newlib/syscalls.o
+ .bss           0x00000000        0x0 ./system/src/newlib/syscalls.o
+ .bss.__dso_handle
+                0x00000000        0x4 ./system/src/newlib/syscalls.o
+ .text.raise    0x00000000       0x1e ./system/src/newlib/syscalls.o
+ .text.kill     0x00000000       0x20 ./system/src/newlib/syscalls.o
+ COMMON         0x00000000        0x4 ./system/src/newlib/syscalls.o
+ .text          0x00000000        0x0 ./system/src/diag/trace-impl.o
+ .data          0x00000000        0x0 ./system/src/diag/trace-impl.o
+ .bss           0x00000000        0x0 ./system/src/diag/trace-impl.o
+ .debug_line    0x00000000        0x0 ./system/src/diag/trace-impl.o
+ .debug_str     0x00000000      0x12c ./system/src/diag/trace-impl.o
+ .comment       0x00000000       0x7f ./system/src/diag/trace-impl.o
+ .ARM.attributes
+                0x00000000       0x33 ./system/src/diag/trace-impl.o
+ .text          0x00000000        0x0 ./system/src/diag/trace.o
+ .data          0x00000000        0x0 ./system/src/diag/trace.o
+ .bss           0x00000000        0x0 ./system/src/diag/trace.o
+ .debug_line    0x00000000        0x0 ./system/src/diag/trace.o
+ .debug_str     0x00000000      0x127 ./system/src/diag/trace.o
+ .comment       0x00000000       0x7f ./system/src/diag/trace.o
+ .ARM.attributes
+                0x00000000       0x33 ./system/src/diag/trace.o
+ .text          0x00000000        0x0 ./system/src/cortexm/exception-handlers.o
+ .data          0x00000000        0x0 ./system/src/cortexm/exception-handlers.o
+ .bss           0x00000000        0x0 ./system/src/cortexm/exception-handlers.o
+ .text          0x00000000        0x0 ./system/src/cortexm/initialize-hardware.o
+ .data          0x00000000        0x0 ./system/src/cortexm/initialize-hardware.o
+ .bss           0x00000000        0x0 ./system/src/cortexm/initialize-hardware.o
+ .text          0x00000000        0x0 ./system/src/cortexm/reset-hardware.o
+ .data          0x00000000        0x0 ./system/src/cortexm/reset-hardware.o
+ .bss           0x00000000        0x0 ./system/src/cortexm/reset-hardware.o
+ .text          0x00000000        0x0 ./system/src/cmsis/system_stm32f4xx.o
+ .data          0x00000000        0x0 ./system/src/cmsis/system_stm32f4xx.o
+ .bss           0x00000000        0x0 ./system/src/cmsis/system_stm32f4xx.o
+ .rodata.APBPrescTable
+                0x00000000        0x8 ./system/src/cmsis/system_stm32f4xx.o
+ .text          0x00000000        0x0 ./system/src/cmsis/vectors_stm32f401xe.o
+ .data          0x00000000        0x0 ./system/src/cmsis/vectors_stm32f401xe.o
+ .bss           0x00000000        0x0 ./system/src/cmsis/vectors_stm32f401xe.o
+ .text          0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/main.o
+ .bss           0x00000000        0x0 ./src/main.o
+ .text          0x00000000        0x0 ./keypad/keypad.o
+ .data          0x00000000        0x0 ./keypad/keypad.o
+ .bss           0x00000000        0x0 ./keypad/keypad.o
+ .data.keypad_map
+                0x00000000        0xc ./keypad/keypad.o
+ .bss.keypad_Button_state
+                0x00000000        0x1 ./keypad/keypad.o
+ .data.keypad_pressed_btn
+                0x00000000        0x1 ./keypad/keypad.o
+ .text.Keypad_init
+                0x00000000       0x5e ./keypad/keypad.o
+ .text.Keypad_GetKey
+                0x00000000       0x20 ./keypad/keypad.o
+ .text.Keypad_manage
+                0x00000000       0xf8 ./keypad/keypad.o
+ .debug_info    0x00000000      0x141 ./keypad/keypad.o
+ .debug_abbrev  0x00000000       0xb7 ./keypad/keypad.o
+ .debug_aranges
+                0x00000000       0x30 ./keypad/keypad.o
+ .debug_ranges  0x00000000       0x20 ./keypad/keypad.o
+ .debug_line    0x00000000      0x124 ./keypad/keypad.o
+ .debug_str     0x00000000      0x21e ./keypad/keypad.o
+ .comment       0x00000000       0x7f ./keypad/keypad.o
+ .debug_frame   0x00000000       0x78 ./keypad/keypad.o
+ .ARM.attributes
+                0x00000000       0x33 ./keypad/keypad.o
+ .text          0x00000000        0x0 ./Rcc/Rcc.o
+ .data          0x00000000        0x0 ./Rcc/Rcc.o
+ .bss           0x00000000        0x0 ./Rcc/Rcc.o
+ .text.Rcc_Disable
+                0x00000000       0xa8 ./Rcc/Rcc.o
+ .text          0x00000000        0x0 ./Gpio/Gpio.o
+ .data          0x00000000        0x0 ./Gpio/Gpio.o
+ .bss           0x00000000        0x0 ./Gpio/Gpio.o
+ .text.GPIO_ReadPin
+                0x00000000       0xfc ./Gpio/Gpio.o
+ .text          0x00000000        0x0 ./GPT/Gpt.o
+ .data          0x00000000        0x0 ./GPT/Gpt.o
+ .bss           0x00000000        0x0 ./GPT/Gpt.o
+ .text.GPT_CheckTimeIsElapsed
+                0x00000000       0x1a ./GPT/Gpt.o
+ .text.GPT_GetRemainingTime
+                0x00000000       0x20 ./GPT/Gpt.o
+ .text.delay_ms
+                0x00000000       0x3e ./GPT/Gpt.o
+ .text          0x00000000        0x0 ./EXTI/EXTI.o
+ .data          0x00000000        0x0 ./EXTI/EXTI.o
+ .bss           0x00000000        0x0 ./EXTI/EXTI.o
+ .text.Exti_Disable
+                0x00000000       0x4c ./EXTI/EXTI.o
+ .text          0x00000000        0x0 d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-errno.o)
+ .data          0x00000000        0x0 d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-errno.o)
+ .text.__errno  0x00000000        0xc d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-errno.o)
+ .debug_frame   0x00000000       0x20 d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-errno.o)
+ .text          0x00000000        0x0 d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000       0x60 d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x2e d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a(lib_a-impure.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x20000000         0x00010000         xrw
+CCMRAM           0x10000000         0x00000000         xrw
+FLASH            0x08000000         0x00100000         xr
+FLASHB1          0x00000000         0x00000000         xr
+EXTMEMB0         0x00000000         0x00000000         xr
+EXTMEMB1         0x00000000         0x00000000         xr
+EXTMEMB2         0x00000000         0x00000000         xr
+EXTMEMB3         0x00000000         0x00000000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./system/src/newlib/assert.o
+LOAD ./system/src/newlib/cxx.o
+LOAD ./system/src/newlib/exit.o
+LOAD ./system/src/newlib/sbrk.o
+LOAD ./system/src/newlib/startup.o
+LOAD ./system/src/newlib/syscalls.o
+LOAD ./system/src/diag/trace-impl.o
+LOAD ./system/src/diag/trace.o
+LOAD ./system/src/cortexm/exception-handlers.o
+LOAD ./system/src/cortexm/initialize-hardware.o
+LOAD ./system/src/cortexm/reset-hardware.o
+LOAD ./system/src/cmsis/system_stm32f4xx.o
+LOAD ./system/src/cmsis/vectors_stm32f401xe.o
+LOAD ./src/main.o
+LOAD ./keypad/keypad.o
+LOAD ./Rcc/Rcc.o
+LOAD ./Gpio/Gpio.o
+LOAD ./GPT/Gpt.o
+LOAD ./EXTI/EXTI.o
+LOAD d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libstdc++_nano.a
+LOAD d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libm.a
+START GROUP
+LOAD d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m\libgcc.a
+LOAD d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libg_nano.a
+LOAD d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc_nano.a
+END GROUP
+START GROUP
+LOAD d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7e-m\libgcc.a
+LOAD d:/eclipse/imt_sdk_win_64/winarm/armgcc/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc_nano.a
+END GROUP
+                0x20010000                __stack = (ORIGIN (RAM) + LENGTH (RAM))
+                0x20010000                _estack = __stack
+                0x00000400                __Main_Stack_Size = 0x400
+                [!provide]                PROVIDE (_Main_Stack_Size, __Main_Stack_Size)
+                0x2000fc00                __Main_Stack_Limit = (__stack - __Main_Stack_Size)
+                [!provide]                PROVIDE (_Main_Stack_Limit, __Main_Stack_Limit)
+                0x00000100                _Minimum_Stack_Size = 0x100
+                0x20000034                PROVIDE (_Heap_Begin, _end_noinit)
+                0x2000fc00                PROVIDE (_Heap_Limit, (__stack - __Main_Stack_Size))
+
+.isr_vector     0x08000000      0x3aa
+ FILL mask 0xff
+                0x08000000                __vectors_start = ABSOLUTE (.)
+                0x08000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x194 ./system/src/cmsis/vectors_stm32f401xe.o
+                0x08000000                __isr_vectors
+ *(.cfmconfig)
+ *(.after_vectors .after_vectors.*)
+ .after_vectors
+                0x08000194      0x168 ./system/src/newlib/startup.o
+                0x08000194                _start
+ .after_vectors
+                0x080002fc       0xa8 ./system/src/cortexm/exception-handlers.o
+                0x080002fc                Reset_Handler
+                0x08000302                NMI_Handler
+                0x08000308                HardFault_Handler
+                0x0800031e                HardFault_Handler_C
+                0x0800032a                MemManage_Handler
+                0x08000330                BusFault_Handler
+                0x08000346                BusFault_Handler_C
+                0x08000352                UsageFault_Handler
+                0x08000368                UsageFault_Handler_C
+                0x08000374                SVC_Handler
+                0x0800037a                DebugMon_Handler
+                0x08000380                PendSV_Handler
+                0x08000386                SysTick_Handler
+ .after_vectors
+                0x080003a4        0x6 ./system/src/cmsis/vectors_stm32f401xe.o
+                0x080003a4                RTC_Alarm_IRQHandler
+                0x080003a4                SPI4_IRQHandler
+                0x080003a4                TIM1_CC_IRQHandler
+                0x080003a4                DMA2_Stream5_IRQHandler
+                0x080003a4                DMA1_Stream5_IRQHandler
+                0x080003a4                PVD_IRQHandler
+                0x080003a4                SDIO_IRQHandler
+                0x080003a4                TAMP_STAMP_IRQHandler
+                0x080003a4                TIM1_UP_TIM10_IRQHandler
+                0x080003a4                I2C3_ER_IRQHandler
+                0x080003a4                I2C2_EV_IRQHandler
+                0x080003a4                DMA1_Stream2_IRQHandler
+                0x080003a4                FPU_IRQHandler
+                0x080003a4                DMA2_Stream2_IRQHandler
+                0x080003a4                SPI1_IRQHandler
+                0x080003a4                TIM1_BRK_TIM9_IRQHandler
+                0x080003a4                DMA2_Stream3_IRQHandler
+                0x080003a4                USART6_IRQHandler
+                0x080003a4                DMA2_Stream0_IRQHandler
+                0x080003a4                TIM4_IRQHandler
+                0x080003a4                I2C1_EV_IRQHandler
+                0x080003a4                DMA1_Stream6_IRQHandler
+                0x080003a4                DMA1_Stream1_IRQHandler
+                0x080003a4                TIM3_IRQHandler
+                0x080003a4                RCC_IRQHandler
+                0x080003a4                Default_Handler
+                0x080003a4                ADC_IRQHandler
+                0x080003a4                DMA1_Stream7_IRQHandler
+                0x080003a4                TIM5_IRQHandler
+                0x080003a4                DMA2_Stream7_IRQHandler
+                0x080003a4                I2C3_EV_IRQHandler
+                0x080003a4                RTC_WKUP_IRQHandler
+                0x080003a4                SPI2_IRQHandler
+                0x080003a4                DMA1_Stream0_IRQHandler
+                0x080003a4                WWDG_IRQHandler
+                0x080003a4                TIM2_IRQHandler
+                0x080003a4                OTG_FS_WKUP_IRQHandler
+                0x080003a4                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080003a4                USART2_IRQHandler
+                0x080003a4                I2C2_ER_IRQHandler
+                0x080003a4                DMA2_Stream1_IRQHandler
+                0x080003a4                FLASH_IRQHandler
+                0x080003a4                DMA2_Stream4_IRQHandler
+                0x080003a4                USART1_IRQHandler
+                0x080003a4                OTG_FS_IRQHandler
+                0x080003a4                SPI3_IRQHandler
+                0x080003a4                DMA1_Stream4_IRQHandler
+                0x080003a4                I2C1_ER_IRQHandler
+                0x080003a4                DMA2_Stream6_IRQHandler
+                0x080003a4                DMA1_Stream3_IRQHandler
+
+.inits          0x080003ac       0x28
+                0x080003ac                __data_regions_array_start = .
+                0x080003ac        0x4 LONG 0x80015d4 LOADADDR (.data)
+                0x080003b0        0x4 LONG 0x20000000 ADDR (.data)
+                0x080003b4        0x4 LONG 0x2000000c (ADDR (.data) + SIZEOF (.data))
+                0x080003b8        0x4 LONG 0x80015d4 LOADADDR (.data_CCMRAM)
+                0x080003bc        0x4 LONG 0x10000000 ADDR (.data_CCMRAM)
+                0x080003c0        0x4 LONG 0x10000000 (ADDR (.data_CCMRAM) + SIZEOF (.data_CCMRAM))
+                0x080003c4                __data_regions_array_end = .
+                0x080003c4                __bss_regions_array_start = .
+                0x080003c4        0x4 LONG 0x2000000c ADDR (.bss)
+                0x080003c8        0x4 LONG 0x20000034 (ADDR (.bss) + SIZEOF (.bss))
+                0x080003cc        0x4 LONG 0x10000000 ADDR (.bss_CCMRAM)
+                0x080003d0        0x4 LONG 0x10000000 (ADDR (.bss_CCMRAM) + SIZEOF (.bss_CCMRAM))
+                0x080003d4                __bss_regions_array_end = .
+ *(.init)
+ *(.fini)
+                0x080003d4                . = ALIGN (0x4)
+                0x080003d4                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array_sysinit .preinit_array_sysinit.*)
+ *(.preinit_array_platform .preinit_array_platform.*)
+ *(.preinit_array .preinit_array.*)
+                0x080003d4                PROVIDE (__preinit_array_end, .)
+                0x080003d4                . = ALIGN (0x4)
+                0x080003d4                PROVIDE (__init_array_start, .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x080003d4                PROVIDE (__init_array_end, .)
+                0x080003d4                . = ALIGN (0x4)
+                0x080003d4                PROVIDE (__fini_array_start, .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+                0x080003d4                PROVIDE (__fini_array_end, .)
+
+.flashtext
+ *(.flashtext .flashtext.*)
+
+.text           0x080003d4     0x1200
+ *(.text .text.*)
+ .text._exit    0x080003d4        0xc ./system/src/newlib/exit.o
+                0x080003d4                _exit
+ .text.__initialize_args
+                0x080003e0       0x24 ./system/src/newlib/syscalls.o
+                0x080003e0                __initialize_args
+ .text.__initialize_hardware_early
+                0x08000404       0x1c ./system/src/cortexm/initialize-hardware.o
+                0x08000404                __initialize_hardware_early
+ .text.__initialize_hardware
+                0x08000420        0xc ./system/src/cortexm/initialize-hardware.o
+                0x08000420                __initialize_hardware
+ .text.__NVIC_SystemReset
+                0x0800042c       0x28 ./system/src/cortexm/reset-hardware.o
+ .text.__reset_hardware
+                0x08000454        0x8 ./system/src/cortexm/reset-hardware.o
+                0x08000454                __reset_hardware
+ .text.SystemInit
+                0x0800045c       0x18 ./system/src/cmsis/system_stm32f4xx.o
+                0x0800045c                SystemInit
+ .text.SystemCoreClockUpdate
+                0x08000474       0xf4 ./system/src/cmsis/system_stm32f4xx.o
+                0x08000474                SystemCoreClockUpdate
+ .text.main     0x08000568      0x42c ./src/main.o
+                0x08000568                main
+ .text.Handel_btn_handeler
+                0x08000994       0x34 ./src/main.o
+                0x08000994                Handel_btn_handeler
+ .text.DoorLock_btn_handeler
+                0x080009c8       0x34 ./src/main.o
+                0x080009c8                DoorLock_btn_handeler
+ .text.Rcc_Init
+                0x080009fc       0x1c ./Rcc/Rcc.o
+                0x080009fc                Rcc_Init
+ .text.Rcc_Enable
+                0x08000a18       0xa8 ./Rcc/Rcc.o
+                0x08000a18                Rcc_Enable
+ .text.Gpio_ConfigPin
+                0x08000ac0      0x40c ./Gpio/Gpio.o
+                0x08000ac0                Gpio_ConfigPin
+ .text.Gpio_WritePin
+                0x08000ecc      0x23c ./Gpio/Gpio.o
+                0x08000ecc                Gpio_WritePin
+ .text.GPT_Init
+                0x08001108       0x68 ./GPT/Gpt.o
+                0x08001108                GPT_Init
+ .text.GPT_StartTimer
+                0x08001170       0x36 ./GPT/Gpt.o
+                0x08001170                GPT_StartTimer
+ .text.GPT_GetElapsedTime
+                0x080011a6       0x18 ./GPT/Gpt.o
+                0x080011a6                GPT_GetElapsedTime
+ *fill*         0x080011be        0x2 
+ .text.Exti_Init
+                0x080011c0      0x250 ./EXTI/EXTI.o
+                0x080011c0                Exti_Init
+ .text.Exti_Enable
+                0x08001410       0x48 ./EXTI/EXTI.o
+                0x08001410                Exti_Enable
+ .text.EXTI0_IRQHandler
+                0x08001458       0x34 ./EXTI/EXTI.o
+                0x08001458                EXTI0_IRQHandler
+ .text.EXTI1_IRQHandler
+                0x0800148c       0x34 ./EXTI/EXTI.o
+                0x0800148c                EXTI1_IRQHandler
+ .text.EXTI2_IRQHandler
+                0x080014c0       0x34 ./EXTI/EXTI.o
+                0x080014c0                EXTI2_IRQHandler
+ .text.EXTI3_IRQHandler
+                0x080014f4       0x34 ./EXTI/EXTI.o
+                0x080014f4                EXTI3_IRQHandler
+ .text.EXTI4_IRQHandler
+                0x08001528       0x34 ./EXTI/EXTI.o
+                0x08001528                EXTI4_IRQHandler
+ .text.EXTI9_5_IRQHandler
+                0x0800155c       0x34 ./EXTI/EXTI.o
+                0x0800155c                EXTI9_5_IRQHandler
+ .text.EXTI15_10_IRQHandler
+                0x08001590       0x34 ./EXTI/EXTI.o
+                0x08001590                EXTI15_10_IRQHandler
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata.AHBPrescTable
+                0x080015c4       0x10 ./system/src/cmsis/system_stm32f4xx.o
+                0x080015c4                AHBPrescTable
+ *(vtable)
+ *(.eh_frame*)
+ *(.glue_7)
+ .glue_7        0x080015d4        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x080015d4        0x0 linker stubs
+
+.vfp11_veneer   0x080015d4        0x0
+ .vfp11_veneer  0x080015d4        0x0 linker stubs
+
+.v4_bx          0x080015d4        0x0
+ .v4_bx         0x080015d4        0x0 linker stubs
+
+.iplt           0x080015d4        0x0
+ .iplt          0x080015d4        0x0 ./system/src/newlib/exit.o
+
+.rel.dyn        0x080015d4        0x0
+ .rel.iplt      0x080015d4        0x0 ./system/src/newlib/exit.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x080015d4                . = ALIGN (0x4)
+                0x080015d4                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x080015d4                __exidx_end = .
+                0x080015d4                . = ALIGN (0x4)
+                0x080015d4                _etext = .
+                0x080015d4                __etext = .
+
+.data_CCMRAM    0x10000000        0x0 load address 0x080015d4
+ FILL mask 0xff
+ *(.data.CCMRAM .data.CCMRAM.*)
+                0x10000000                . = ALIGN (0x4)
+                0x080015d4                _sidata = LOADADDR (.data)
+
+.data           0x20000000        0xc load address 0x080015d4
+ FILL mask 0xff
+                0x20000000                _sdata = .
+                0x20000000                __data_start__ = .
+ *(.data_begin .data_begin.*)
+ *(.data .data.*)
+ .data.argv.4310
+                0x20000000        0x8 ./system/src/newlib/syscalls.o
+ .data.SystemCoreClock
+                0x20000008        0x4 ./system/src/cmsis/system_stm32f4xx.o
+                0x20000008                SystemCoreClock
+ *(.data_end .data_end.*)
+                0x2000000c                . = ALIGN (0x4)
+                0x2000000c                _edata = .
+                0x2000000c                __data_end__ = .
+
+.igot.plt       0x2000000c        0x0 load address 0x080015e0
+ .igot.plt      0x2000000c        0x0 ./system/src/newlib/exit.o
+
+.bss_CCMRAM     0x10000000        0x0
+ *(.bss.CCMRAM .bss.CCMRAM.*)
+
+.bss            0x2000000c       0x28
+                0x2000000c                __bss_start__ = .
+                0x2000000c                _sbss = .
+ *(.bss_begin .bss_begin.*)
+ *(.bss .bss.*)
+ .bss.name.4309
+                0x2000000c        0x1 ./system/src/newlib/syscalls.o
+ .bss.Change_Flag
+                0x2000000d        0x1 ./src/main.o
+                0x2000000d                Change_Flag
+ .bss.i.3718    0x2000000e        0x1 ./src/main.o
+ .bss.i.3722    0x2000000f        0x1 ./src/main.o
+ *(COMMON)
+ COMMON         0x20000010        0x3 ./src/main.o
+                0x20000010                Handel_State
+                0x20000011                next_action
+                0x20000012                Door_State
+ *fill*         0x20000013        0x1 
+ COMMON         0x20000014       0x20 ./EXTI/EXTI.o
+                0x20000014                EXTI1_Callback
+                0x20000018                EXTI4_Callback
+                0x2000001c                EXTI15_10_Callback
+                0x20000020                EXTI9_5_Callback
+                0x20000024                EXTI0_Callback
+                0x20000028                pin_number
+                0x2000002c                EXTI3_Callback
+                0x20000030                EXTI2_Callback
+ *(.bss_end .bss_end.*)
+                0x20000034                . = ALIGN (0x4)
+                0x20000034                __bss_end__ = .
+                0x20000034                _ebss = .
+
+.noinit_CCMRAM
+ *(.noinit.CCMRAM .noinit.CCMRAM.*)
+
+.noinit         0x20000034        0x0
+                0x20000034                _noinit = .
+ *(.noinit .noinit.*)
+                0x20000034                . = ALIGN (0x4)
+                0x20000034                _end_noinit = .
+                [!provide]                PROVIDE (end, _end_noinit)
+                [!provide]                PROVIDE (_end, _end_noinit)
+                [!provide]                PROVIDE (__end, _end_noinit)
+                [!provide]                PROVIDE (__end__, _end_noinit)
+
+._check_stack   0x20000034      0x100
+                0x20000134                . = (. + _Minimum_Stack_Size)
+ *fill*         0x20000034      0x100 
+
+.b1text
+ *(.b1text)
+ *(.b1rodata)
+ *(.b1rodata.*)
+
+.eb0text
+ *(.eb0text)
+ *(.eb0rodata)
+ *(.eb0rodata.*)
+
+.eb1text
+ *(.eb1text)
+ *(.eb1rodata)
+ *(.eb1rodata.*)
+
+.eb2text
+ *(.eb2text)
+ *(.eb2rodata)
+ *(.eb2rodata.*)
+
+.eb3text
+ *(.eb3text)
+ *(.eb3rodata)
+ *(.eb3rodata.*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x7e
+ *(.comment)
+ .comment       0x00000000       0x7e ./system/src/newlib/exit.o
+                                 0x7f (size before relaxing)
+ .comment       0x0000007e       0x7f ./system/src/newlib/startup.o
+ .comment       0x0000007e       0x7f ./system/src/newlib/syscalls.o
+ .comment       0x0000007e       0x7f ./system/src/cortexm/exception-handlers.o
+ .comment       0x0000007e       0x7f ./system/src/cortexm/initialize-hardware.o
+ .comment       0x0000007e       0x7f ./system/src/cortexm/reset-hardware.o
+ .comment       0x0000007e       0x7f ./system/src/cmsis/system_stm32f4xx.o
+ .comment       0x0000007e       0x7f ./system/src/cmsis/vectors_stm32f401xe.o
+ .comment       0x0000007e       0x7f ./src/main.o
+ .comment       0x0000007e       0x7f ./Rcc/Rcc.o
+ .comment       0x0000007e       0x7f ./Gpio/Gpio.o
+ .comment       0x0000007e       0x7f ./GPT/Gpt.o
+ .comment       0x0000007e       0x7f ./EXTI/EXTI.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ./system/src/newlib/exit.o
+ .ARM.attributes
+                0x00000033       0x33 ./system/src/newlib/startup.o
+ .ARM.attributes
+                0x00000066       0x33 ./system/src/newlib/syscalls.o
+ .ARM.attributes
+                0x00000099       0x33 ./system/src/cortexm/exception-handlers.o
+ .ARM.attributes
+                0x000000cc       0x33 ./system/src/cortexm/initialize-hardware.o
+ .ARM.attributes
+                0x000000ff       0x33 ./system/src/cortexm/reset-hardware.o
+ .ARM.attributes
+                0x00000132       0x33 ./system/src/cmsis/system_stm32f4xx.o
+ .ARM.attributes
+                0x00000165       0x33 ./system/src/cmsis/vectors_stm32f401xe.o
+ .ARM.attributes
+                0x00000198       0x33 ./src/main.o
+ .ARM.attributes
+                0x000001cb       0x33 ./Rcc/Rcc.o
+ .ARM.attributes
+                0x000001fe       0x33 ./Gpio/Gpio.o
+ .ARM.attributes
+                0x00000231       0x33 ./GPT/Gpt.o
+ .ARM.attributes
+                0x00000264       0x33 ./EXTI/EXTI.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x2f0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 ./system/src/newlib/exit.o
+ .debug_aranges
+                0x00000028       0x40 ./system/src/newlib/startup.o
+ .debug_aranges
+                0x00000068       0x30 ./system/src/newlib/syscalls.o
+ .debug_aranges
+                0x00000098       0x80 ./system/src/cortexm/exception-handlers.o
+ .debug_aranges
+                0x00000118       0x28 ./system/src/cortexm/initialize-hardware.o
+ .debug_aranges
+                0x00000140       0x28 ./system/src/cortexm/reset-hardware.o
+ .debug_aranges
+                0x00000168       0x28 ./system/src/cmsis/system_stm32f4xx.o
+ .debug_aranges
+                0x00000190       0x20 ./system/src/cmsis/vectors_stm32f401xe.o
+ .debug_aranges
+                0x000001b0       0x30 ./src/main.o
+ .debug_aranges
+                0x000001e0       0x30 ./Rcc/Rcc.o
+ .debug_aranges
+                0x00000210       0x30 ./Gpio/Gpio.o
+ .debug_aranges
+                0x00000240       0x48 ./GPT/Gpt.o
+ .debug_aranges
+                0x00000288       0x68 ./EXTI/EXTI.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x37b4
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x933 ./system/src/newlib/exit.o
+ .debug_info    0x00000933      0x3e5 ./system/src/newlib/startup.o
+ .debug_info    0x00000d18      0x9f3 ./system/src/newlib/syscalls.o
+ .debug_info    0x0000170b      0xb3b ./system/src/cortexm/exception-handlers.o
+ .debug_info    0x00002246      0x2c4 ./system/src/cortexm/initialize-hardware.o
+ .debug_info    0x0000250a      0x2e8 ./system/src/cortexm/reset-hardware.o
+ .debug_info    0x000027f2      0x500 ./system/src/cmsis/system_stm32f4xx.o
+ .debug_info    0x00002cf2       0xc6 ./system/src/cmsis/vectors_stm32f401xe.o
+ .debug_info    0x00002db8      0x1a7 ./src/main.o
+ .debug_info    0x00002f5f      0x11e ./Rcc/Rcc.o
+ .debug_info    0x0000307d      0x1e0 ./Gpio/Gpio.o
+ .debug_info    0x0000325d      0x23d ./GPT/Gpt.o
+ .debug_info    0x0000349a      0x31a ./EXTI/EXTI.o
+
+.debug_abbrev   0x00000000      0xe8b
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1f6 ./system/src/newlib/exit.o
+ .debug_abbrev  0x000001f6      0x14f ./system/src/newlib/startup.o
+ .debug_abbrev  0x00000345      0x21c ./system/src/newlib/syscalls.o
+ .debug_abbrev  0x00000561      0x1fe ./system/src/cortexm/exception-handlers.o
+ .debug_abbrev  0x0000075f       0xc9 ./system/src/cortexm/initialize-hardware.o
+ .debug_abbrev  0x00000828      0x105 ./system/src/cortexm/reset-hardware.o
+ .debug_abbrev  0x0000092d      0x10e ./system/src/cmsis/system_stm32f4xx.o
+ .debug_abbrev  0x00000a3b       0x9a ./system/src/cmsis/vectors_stm32f401xe.o
+ .debug_abbrev  0x00000ad5       0xb5 ./src/main.o
+ .debug_abbrev  0x00000b8a       0x7c ./Rcc/Rcc.o
+ .debug_abbrev  0x00000c06       0xa9 ./Gpio/Gpio.o
+ .debug_abbrev  0x00000caf       0xdb ./GPT/Gpt.o
+ .debug_abbrev  0x00000d8a      0x101 ./EXTI/EXTI.o
+
+.debug_line     0x00000000     0x10ac
+ *(.debug_line)
+ .debug_line    0x00000000      0x190 ./system/src/newlib/exit.o
+ .debug_line    0x00000190      0x11c ./system/src/newlib/startup.o
+ .debug_line    0x000002ac      0x1ac ./system/src/newlib/syscalls.o
+ .debug_line    0x00000458      0x1f4 ./system/src/cortexm/exception-handlers.o
+ .debug_line    0x0000064c      0x10a ./system/src/cortexm/initialize-hardware.o
+ .debug_line    0x00000756      0x12d ./system/src/cortexm/reset-hardware.o
+ .debug_line    0x00000883      0x128 ./system/src/cmsis/system_stm32f4xx.o
+ .debug_line    0x000009ab       0x5f ./system/src/cmsis/vectors_stm32f401xe.o
+ .debug_line    0x00000a0a      0x1cf ./src/main.o
+ .debug_line    0x00000bd9       0xbd ./Rcc/Rcc.o
+ .debug_line    0x00000c96      0x140 ./Gpio/Gpio.o
+ .debug_line    0x00000dd6      0x12c ./GPT/Gpt.o
+ .debug_line    0x00000f02      0x1aa ./EXTI/EXTI.o
+
+.debug_frame    0x00000000      0x78c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x50 ./system/src/newlib/exit.o
+ .debug_frame   0x00000050       0xc8 ./system/src/newlib/startup.o
+ .debug_frame   0x00000118       0x80 ./system/src/newlib/syscalls.o
+ .debug_frame   0x00000198      0x13c ./system/src/cortexm/exception-handlers.o
+ .debug_frame   0x000002d4       0x48 ./system/src/cortexm/initialize-hardware.o
+ .debug_frame   0x0000031c       0x44 ./system/src/cortexm/reset-hardware.o
+ .debug_frame   0x00000360       0x58 ./system/src/cmsis/system_stm32f4xx.o
+ .debug_frame   0x000003b8       0x28 ./system/src/cmsis/vectors_stm32f401xe.o
+ .debug_frame   0x000003e0       0x70 ./src/main.o
+ .debug_frame   0x00000450       0x80 ./Rcc/Rcc.o
+ .debug_frame   0x000004d0       0x8c ./Gpio/Gpio.o
+ .debug_frame   0x0000055c       0xe4 ./GPT/Gpt.o
+ .debug_frame   0x00000640      0x14c ./EXTI/EXTI.o
+
+.debug_str      0x00000000     0x1044
+ *(.debug_str)
+ .debug_str     0x00000000      0x57b ./system/src/newlib/exit.o
+                                0x5ec (size before relaxing)
+ .debug_str     0x0000057b      0x159 ./system/src/newlib/startup.o
+                                0x316 (size before relaxing)
+ .debug_str     0x000006d4       0x93 ./system/src/newlib/syscalls.o
+                                0x626 (size before relaxing)
+ .debug_str     0x00000767      0x169 ./system/src/cortexm/exception-handlers.o
+                                0x71b (size before relaxing)
+ .debug_str     0x000008d0       0xcc ./system/src/cortexm/initialize-hardware.o
+                                0x2ae (size before relaxing)
+ .debug_str     0x0000099c       0x51 ./system/src/cortexm/reset-hardware.o
+                                0x291 (size before relaxing)
+ .debug_str     0x000009ed      0x162 ./system/src/cmsis/system_stm32f4xx.o
+                                0x3a7 (size before relaxing)
+ .debug_str     0x00000b4f       0x59 ./system/src/cmsis/vectors_stm32f401xe.o
+                                0x1e9 (size before relaxing)
+ .debug_str     0x00000ba8      0x11e ./src/main.o
+                                0x2af (size before relaxing)
+ .debug_str     0x00000cc6       0x5d ./Rcc/Rcc.o
+                                0x208 (size before relaxing)
+ .debug_str     0x00000d23       0x9c ./Gpio/Gpio.o
+                                0x23f (size before relaxing)
+ .debug_str     0x00000dbf       0xd3 ./GPT/Gpt.o
+                                0x285 (size before relaxing)
+ .debug_str     0x00000e92      0x1b2 ./EXTI/EXTI.o
+                                0x39e (size before relaxing)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+OUTPUT(Lab4_Startup_Project_TODO.elf elf32-littlearm)
+
+.debug_ranges   0x00000000      0x238
+ .debug_ranges  0x00000000       0x18 ./system/src/newlib/exit.o
+ .debug_ranges  0x00000018       0x30 ./system/src/newlib/startup.o
+ .debug_ranges  0x00000048       0x20 ./system/src/newlib/syscalls.o
+ .debug_ranges  0x00000068       0x70 ./system/src/cortexm/exception-handlers.o
+ .debug_ranges  0x000000d8       0x18 ./system/src/cortexm/initialize-hardware.o
+ .debug_ranges  0x000000f0       0x18 ./system/src/cortexm/reset-hardware.o
+ .debug_ranges  0x00000108       0x18 ./system/src/cmsis/system_stm32f4xx.o
+ .debug_ranges  0x00000120       0x10 ./system/src/cmsis/vectors_stm32f401xe.o
+ .debug_ranges  0x00000130       0x38 ./src/main.o
+ .debug_ranges  0x00000168       0x20 ./Rcc/Rcc.o
+ .debug_ranges  0x00000188       0x20 ./Gpio/Gpio.o
+ .debug_ranges  0x000001a8       0x38 ./GPT/Gpt.o
+ .debug_ranges  0x000001e0       0x58 ./EXTI/EXTI.o

@@ -1,4 +1,4 @@
-# Alarm System Firmware
+# Automotive door locking and Alarm System Firmware
 
 This repository contains the firmware for a simulated automotive door locking and lighting controller. The application is built around a cooperative state machine that responds to handle and door lock inputs, drives three indicator LEDs, and enforces an anti-theft timeout routine using STM32F4 peripherals.
 

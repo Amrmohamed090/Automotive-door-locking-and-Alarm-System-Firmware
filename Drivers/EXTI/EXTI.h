@@ -1,5 +1,3 @@
-/*  Abram Gad   -   Amr Mohamed   -  Mahmude Hamdy  -  Naira Youssef */
-/*  TEAM  8  */
 #ifndef EXTI_H
 #define EXTI_H
 

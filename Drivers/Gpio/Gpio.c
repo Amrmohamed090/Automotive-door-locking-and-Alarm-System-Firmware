@@ -1,6 +1,3 @@
-/*  Abram Gad   -   Amr Mohamed   -  Mahmude Hamdy  -  Naira Youssef */
-/*  TEAM  8  */
-
 #include "Gpio.h"
 #include "Gpio_Private.h"
 

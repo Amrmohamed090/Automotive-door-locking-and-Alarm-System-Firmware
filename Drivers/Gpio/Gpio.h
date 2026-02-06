@@ -1,6 +1,3 @@
-/*  Abram Gad   -   Amr Mohamed   -  Mahmude Hamdy  -  Naira Youssef */
-/*  TEAM  8  */
-
 #ifndef GPIOFILE_H
 #define GPIOFILE_H
 #include "Std_Types.h"

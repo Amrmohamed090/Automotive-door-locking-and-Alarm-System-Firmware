@@ -1,5 +1,3 @@
-/*  Abram Gad   -   Amr Mohamed   -  Mahmude Hamdy  -  Naira Youssef */
-/*  TEAM  8  */
 
 #ifndef BIT_OPERATIONS_H
 #define BIT_OPERATIONS_H

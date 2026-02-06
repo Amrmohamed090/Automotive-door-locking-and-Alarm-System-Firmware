@@ -1,6 +1,3 @@
-/*  Abram Gad   -   Amr Mohamed   -  Mahmude Hamdy  -  Naira Youssef */
-/*  TEAM  8  */
-
 
 #ifndef GPT_H
 #define GPT_H

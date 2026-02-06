@@ -1,4 +1,4 @@
-# Automotive door locking and Alarm System Firmware
+# Automotive Door Locking and Alarm System Firmware
 
 This repository contains the firmware for a simulated automotive door locking and lighting controller. The application is built around a cooperative state machine that responds to handle and door lock inputs, drives three indicator LEDs, and enforces an anti-theft timeout routine using STM32F4 peripherals.
 
@@ -8,51 +8,76 @@ This repository contains the firmware for a simulated automotive door locking an
 - **Stateful lock management:** The main loop tracks door and handle states to prevent invalid transitions (e.g., locking the handle while the door is open) and sequences LED patterns to mirror each action.
 - **Timer-backed lighting effects:** A single general-purpose timer (TIM2) provides elapsed time for hazard flashing, ambient lighting duration, and anti-theft delays, simplifying timing logic across the application.
 
-## Repository layout
+## Repository Layout
 
-- `all_files/src/`: Application entry point and state machine logic (`main.c`).
-- `all_files/GPT/`, `all_files/EXTI/`, `all_files/Gpio/`, `all_files/Rcc/`: Peripheral drivers for the general-purpose timer, external interrupts, GPIO abstraction, and clock control.
-- `all_files/system/` and `all_files/Lib/`: CMSIS startup code, linker scripts, and vendor support files for the STM32F4 toolchain.
-- `all_files/Release/`: Generated Makefiles and build outputs produced by STM32CubeIDE/ GNU Arm Embedded toolchain.
-- `simulation/`: Proteus project archive for hardware simulation.
+```
+.
+├── Drivers/
+│   ├── src/           # Application entry point and state machine logic (main.c)
+│   ├── EXTI/          # External interrupt driver
+│   ├── Gpio/          # GPIO abstraction driver
+│   ├── GPT/           # General-purpose timer driver
+│   ├── I2c/           # I2C communication driver
+│   ├── Lib/           # Common utilities and type definitions
+│   ├── Rcc/           # Reset and Clock Control driver
+│   ├── Spi/           # SPI communication driver
+│   ├── Uart/          # UART communication driver
+│   ├── system/        # CMSIS startup code and vendor support files
+│   ├── ldscripts/     # Linker scripts for STM32F4
+│   └── Release/       # Build output (Makefiles, ELF, HEX files)
+├── simulation/        # Proteus project archive for hardware simulation
+└── README.md
+```
 
-## Getting started
+## Target Hardware
+
+- **MCU:** STM32F401xE (ARM Cortex-M4)
+- **GPIO Inputs:** GPIOA0 (Handle button), GPIOB1 (Door lock button)
+- **GPIO Outputs:** GPIOD0 (Lock LED), GPIOD1 (Hazard LED), GPIOD2 (Ambient LED)
+
+## Getting Started
 
 ### Prerequisites
 
-- GNU Arm Embedded Toolchain (`arm-none-eabi-gcc`, `arm-none-eabi-g++`, `arm-none-eabi-objcopy`, `arm-none-eabi-size`).
-- Make (GNU Make 4.x or compatible).
-- Optional: Proteus or a compatible simulator to open the project file in `simulation/`.
+- GNU Arm Embedded Toolchain (`arm-none-eabi-gcc`, `arm-none-eabi-g++`, `arm-none-eabi-objcopy`, `arm-none-eabi-size`)
+- Make (GNU Make 4.x or compatible)
+- Optional: Proteus 8 or compatible simulator to open the project file in `simulation/`
 
-### Building the firmware
+### Building the Firmware
 
 1. Ensure the GNU Arm toolchain is on your `PATH`.
 2. From the repository root, invoke the release build:
 
    ```bash
-   make -C all_files/Release
+   make -C Drivers/Release
    ```
 
-   This produces the ELF (`Lab4_Startup_Project_TODO.elf`) and Intel HEX (`Lab4_Startup_Project_TODO.hex`) images in `all_files/Release/` along with associated size and listing files.all_files/Release/makefile
+   This produces the ELF and Intel HEX images in `Drivers/Release/`.
 
 3. Flash the generated HEX file to the target MCU or load it into your preferred simulator/emulator.
 
-### Cleaning build artifacts
+### Cleaning Build Artifacts
 
-To remove the generated objects and binaries, run:
+To remove generated objects and binaries:
 
 ```bash
-make -C all_files/Release clean
+make -C Drivers/Release clean
 ```
 
-## Runtime behavior
+## Runtime Behavior
 
-- **Handle opening:** Unlocks the handle, turns on all LEDs immediately, keeps the hazard LED lit for 0.5 seconds, the ambient LED for 2 seconds, and starts a 10-second anti-theft timer.F:all_files/src/main.c
-- **Handle closing:** If the door is closed, locks the handle, turns the lock LED off, and flashes the hazard LED twice before returning to idle.F:all_files/src/main.c
-- **Door opening/closing:** Door actions are only honored when their prerequisites are satisfied (e.g., the handle must be unlocked before opening). Closing the door powers down LEDs after a 1-second delay.F:all_files/src/main.
-- **Anti-theft:** Ten seconds after the handle is opened without further interaction, the system relocks the handle and plays the same hazard pattern as manual locking./src/main.c
+| Action | Description |
+|--------|-------------|
+| **Handle Opening** | Unlocks the handle, turns on all LEDs immediately, keeps hazard LED lit for 0.5s, ambient LED for 2s, and starts a 10-second anti-theft timer. |
+| **Handle Closing** | If the door is closed, locks the handle, turns lock LED off, and flashes hazard LED twice before returning to idle. |
+| **Door Opening** | Only honored when the handle is unlocked. Turns on ambient LED. |
+| **Door Closing** | Locks the door and powers down LEDs after a 1-second delay. |
+| **Anti-theft** | If no button is pressed within 10 seconds after handle opening, the system auto-locks and flashes the hazard LED pattern. |
 
-## Simulation and testing
+## Simulation
 
 The `simulation/ARM Project.pdsprj.BEBO.abram.zip` archive contains the Proteus design used to demonstrate the firmware. Extract and open the project in Proteus to visualize the LED indicators and button inputs without hardware.
 
+## License
+
+This project is provided for educational purposes.

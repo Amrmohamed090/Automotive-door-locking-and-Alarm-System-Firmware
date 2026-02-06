@@ -1,5 +1,4 @@
-/*  Abram Gad   -   Amr Mohamed   -  Mahmude Hamdy  -  Naira Youssef */
-/*  TEAM  8  */
+
 #ifndef STD_TYPES_H
 #define STD_TYPES_H
 

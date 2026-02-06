@@ -1,6 +1,3 @@
-/*  Abram Gad   -   Amr Mohamed   -  Mahmude Hamdy  -  Naira Youssef */
-/*  TEAM  8  */
-
 #ifndef GPIO_PRIVATE_H
 #define GPIO_PRIVATE_H
 

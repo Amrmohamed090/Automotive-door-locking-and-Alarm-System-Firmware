@@ -1,6 +1,3 @@
-/*  Abram Gad   -   Amr Mohamed   -  Mahmude Hamdy  -  Naira Youssef */
-/*  TEAM  8  */
-
 #include "Std_Types.h"
 #include "Bit_Operations.h"
 #include "Gpio.h"
